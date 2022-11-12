@@ -1,0 +1,86 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	position: sticky;
+	height: 55px;
+}
+
+.hamburger-logo-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.hamburger {
+	height: 25px;
+	width: 25px;
+	margin: 25px;
+}
+
+.logo {
+	width: 85px;
+}
+
+.search-mic-container {
+	display: flex;
+}
+
+.search-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.input-search {
+	height: 35 px;
+	width: 600px;
+	/* background-color: hsl(0deg 0% 19%); */
+	background-color: hsl(0deg 0% 7%);
+	padding: 10px;
+	padding-left: 20px;
+	border-width: 1px;
+	border-color: gray;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+.icon-container {
+	display: flex;
+	width: 50px;
+	height: 100%;
+	background-color: hsl(0deg 0% 19%);
+	padding: auto;
+	padding-left: 10px;
+	align-items: center;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.icon-search {
+	width: 25px;
+	height: 25px;
+}
+
+/* ==================================== */
+
+.upload-notif-avatar {
+	display: flex;
+	flex-direction: row;
+	margin-right: 20px;
+}
+
+.notif {
+	width: 25px;
+	height: 25px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.avatar {
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+}
