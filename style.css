@@ -8,6 +8,10 @@ p {
 	margin: 0;
 }
 
+.white {
+	color: white;
+}
+
 .navbar {
 	display: flex;
 	flex-direction: row;
@@ -133,6 +137,8 @@ p {
 .title {
 	font-size: 1.5rem;
 	margin-top: 0px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 	color: white;
 }
 
@@ -388,4 +394,101 @@ p {
 
 .desc-text {
 	color: white;
+}
+
+.comment-count-and-sort-by {
+	margin-top: 25px;
+	display: flex;
+}
+
+.sort-icon {
+	width: 24px;
+	height: 24px;
+	margin-left: 32px;
+	margin-right: 8px;
+}
+
+.add-comment-container {
+	display: flex;
+	align-items: center;
+	margin-top: 28px;
+	margin-bottom: 32px;
+}
+
+.img-comment {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	margin-right: 16px;
+}
+
+.comment-input {
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid gray;
+	background-color: #0f0f0f;
+}
+
+.comment-container {
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.info-comment-container {
+	display: flex;
+}
+
+.info-comment {
+}
+
+.name-date {
+	margin-bottom: 7px;
+}
+
+.date-comment {
+	color: gray;
+	font-size: 0.8rem;
+	margin-left: 4px;
+}
+
+.comment-text {
+	font-weight: 200px;
+	font-size: 0.9rem;
+	line-height: 1.2rem;
+}
+
+.like-dislike-comment {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.like {
+	display: flex;
+	align-items: center;
+}
+
+.like-comment {
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+.dislike {
+	display: flex;
+	margin-left: 8px;
+}
+.dislike-comment {
+	width: 25px;
+	height: 25px;
+}
+
+.reply-text {
+	font-weight: 400;
+	font-size: 0.8rem;
+	margin-left: 20px;
+}
+
+.reply-count {
+	color: #45aeff;
 }
